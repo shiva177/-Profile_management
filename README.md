@@ -31,34 +31,23 @@ Ensure you have the following installed:
 
 ## 📝 Project Setup
 
-1. Clone the repository:
-\`\`\`bash
+```bash
+# Clone the repository
 git clone https://github.com/shiva177/-Profile_management.git
 cd -Profile_management
-\`\`\`
 
-2. Install dependencies:
-\`\`\`bash
+# Install dependencies
 npm install
-\`\`\`
 
-3. Create a \`.env\` file in the root directory:
-\`\`\`ini
-PORT=5001
+# Create a .env file in the root directory
+echo "PORT=5001
 MONGODB_URI=mongodb://127.0.0.1:27017/userProfileDB
-JWT_SECRET=your_jwt_secret
-\`\`\`
+JWT_SECRET=your_jwt_secret" > .env
 
-4. Start MongoDB server:
-\`\`\`bash
+# Start MongoDB server
 mongod
-\`\`\`
 
-5. Start the application:
-\`\`\`bash
+# Start the application
 npm start
-\`\`\`
-
----
 
 
