@@ -32,6 +32,33 @@ Ensure you have the following installed:
 ## 📝 Project Setup
 
 1. Clone the repository:
-```bash
+\`\`\`bash
 git clone https://github.com/shiva177/-Profile_management.git
-cd user-profile-api
+cd -Profile_management
+\`\`\`
+
+2. Install dependencies:
+\`\`\`bash
+npm install
+\`\`\`
+
+3. Create a \`.env\` file in the root directory:
+\`\`\`ini
+PORT=5001
+MONGODB_URI=mongodb://127.0.0.1:27017/userProfileDB
+JWT_SECRET=your_jwt_secret
+\`\`\`
+
+4. Start MongoDB server:
+\`\`\`bash
+mongod
+\`\`\`
+
+5. Start the application:
+\`\`\`bash
+npm start
+\`\`\`
+
+---
+
+
