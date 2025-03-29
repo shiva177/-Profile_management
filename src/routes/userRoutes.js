@@ -1,4 +1,3 @@
-// src/routes/userRoutes.js
 const express = require('express');
 const { registerUser, getProfile, updateProfile } = require('../controllers/userController');
 const authMiddleware = require('../middleware/auth');
